@@ -1,0 +1,3 @@
+Utilizamos el patron de diseño Factory Method y sirve para delegar la creacion de objetos, al ser una app de citas medicas esto es util porque: simplifica el sistema, hace que sea fácil de mantener y permite agregar mas tipo de citas sin afectar al resto del codigo ni tener que modificar el sistema (solo la fabrica). 
+
+Esto se debe a que la lógica de creación de las citas está centralizada en un solo lugar (la fábrica), lo que facilita la gestión del código. Este patrón se puede aplicar porque el código que usa las citas no necesita saber cómo se crean. Solo le pide a la fábrica que le dé el tipo de cita que necesita.s
